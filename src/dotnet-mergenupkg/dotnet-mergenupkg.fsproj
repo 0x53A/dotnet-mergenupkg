@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>netcoreapp1.0;netcoreapp2.0</TargetFrameworks>
+	<AssemblyName>dotnet-0x53A-mergenupkg</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="railway.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+</Project>
